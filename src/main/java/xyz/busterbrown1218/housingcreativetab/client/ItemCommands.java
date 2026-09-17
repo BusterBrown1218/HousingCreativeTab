@@ -124,7 +124,7 @@ public class ItemCommands {
 
             dispatcher.register(literal("itemtype")
                     .then(argument("id", ClientIdentifierArgumentType.identifier())
-                            .suggests(new ItemSuggestionProvider())
+                            .suggests(new RestrictedItemSuggestionProvider())
                             .executes(itemCommand((context, item) -> {
                                 item = item.transmuteCopy(new ItemStack(BuiltInRegistries.ITEM.getValue(ClientIdentifierArgumentType.getIdentifier(context, "id"))).getItem());
                                 return item;
