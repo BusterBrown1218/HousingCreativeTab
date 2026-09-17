@@ -16,5 +16,6 @@ In an effort to make Hypixel Housing more latest-version-friendly, this mod adds
    7) `/armorcolor <hex>` changes the held item's dye color
    8) `/itemmodel <id>` sets the held item's item model (will only affect visuals on modern versions)
    9) `/armortrim <template> <material>` sets the held item's armor trim component (will only affect visuals on modern versions)
+   10) `/copyLore` and `/pasteLore` allows copying and pasting lore between items
 
 Should you find errors in the mod (e.g. item is incorrectly filtered out or incorrect/missing translation), you can make a github issue or contact me on discord (@busterbrown1218)
