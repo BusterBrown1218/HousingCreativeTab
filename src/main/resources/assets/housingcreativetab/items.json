@@ -131,7 +131,6 @@
   "minecraft:bookshelf",
   "minecraft:obsidian",
   "minecraft:torch",
-  "minecraft:spawner",
   "minecraft:chest",
   "minecraft:crafting_table",
   "minecraft:furnace",
@@ -187,7 +186,6 @@
   "minecraft:dragon_egg",
   "minecraft:sandstone_stairs",
   "minecraft:ender_chest",
-  "minecraft:command_block",
   "minecraft:beacon",
   "minecraft:cobblestone_wall",
   "minecraft:mossy_cobblestone",
@@ -517,7 +515,6 @@
   "minecraft:diamond_horse_armor",
   "minecraft:lead",
   "minecraft:name_tag",
-  "minecraft:command_block_minecart",
   "minecraft:mutton",
   "minecraft:cooked_mutton",
   "minecraft:white_banner",
@@ -556,5 +553,7 @@
   "minecraft:infested_chiseled_stone_bricks",
   "minecraft:short_grass",
   "minecraft:tall_grass",
-  "minecraft:sugar_cane"
+  "minecraft:sugar_cane",
+  "minecraft:enchanting_table",
+  "minecraft:petrified_oak_slab"
 ]

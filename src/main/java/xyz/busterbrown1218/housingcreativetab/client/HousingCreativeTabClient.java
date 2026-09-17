@@ -31,7 +31,7 @@ public class HousingCreativeTabClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         FabricLoader.getInstance().getModContainer("housingcreativetab").ifPresent(modContainer -> {
-            ResourceLoader.registerBuiltinPack(Identifier.fromNamespaceAndPath("housingcreativetab", "protool_ids"), modContainer, Component.literal("Protool IDs"), PackActivationType.DEFAULT_ENABLED);
+            ResourceLoader.registerBuiltinPack(Identifier.fromNamespaceAndPath("housingcreativetab", "protool_ids"), modContainer, Component.literal("Protool IDs"), PackActivationType.NORMAL);
         });
 
         Path configPath = FabricLoader.getInstance().getConfigDir().resolve("housingcreativetab.json");
