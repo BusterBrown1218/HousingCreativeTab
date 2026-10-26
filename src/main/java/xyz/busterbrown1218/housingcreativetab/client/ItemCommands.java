@@ -186,7 +186,7 @@ public class ItemCommands {
     }
 
     private static boolean cannotEdit(@UnknownNullability Player player) {
-        if (!player.isCreative()) {
+        if (!player.getAbilities().instabuild) {
             Compat.sendPlayerMessage(player, Component.literal("You must be in creative to edit an item!"));
             return true;
         } else if (player.getActiveItem().isEmpty()) {
